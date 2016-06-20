@@ -16,3 +16,4 @@ You just need to add "data-subing" attribute to any html5 video with tracks:
   -The even tracks will be shown in the top of the video, and the odd in the bottom.<br>
   -Right clicking make showing/hiding all tracks except first, so it's perfect for watching some video in a foreign language, and
   in case of understanding context problems right clicking to see the translation.
+  -CSS customization in progress.
