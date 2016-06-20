@@ -41,14 +41,15 @@ window.onload = function() {
 		var cues;
 		tracklist = video.textTracks;
 		for (var j = 0; j < tracklist.length; j++) {
-			if ((j + 1) % 2 == 0) {
-				track = tracklist[j];
-				if (track.mode == "showing") {
-					track.mode = "hidden";
-				} else {
-					video.pause();
-					track.mode = "showing";
-				}
+			if (j == 0) {
+				continue;
+			}
+			track = tracklist[j];
+			if (track.mode == "showing") {
+				track.mode = "hidden";
+			} else {
+				video.pause();
+				track.mode = "showing";
 			}
 		}
 	}
