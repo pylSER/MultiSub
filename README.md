@@ -16,7 +16,7 @@ Just add the <b>name of the css class</b> separated by commas in the attribute f
   ```
 The css class will be applied to the subtitles in order, first class (yellow in this example) will be applied to the first subtitle, second to second...
 The multisub.css file can be edited, so anyone can create their custom css classes.<br>
-Behavior:
+Behavior:<br>
   -<b>Right clicking</b> make showing/hiding all tracks except first, so it's perfect for watching some video in a foreign language, and in case of understanding context problems right clicking to see the translation.<br>
   -The even tracks will be shown in the top of the video, and the odd in the bottom.<br>
   -Only works in chrome for now.
