@@ -1,0 +1,35 @@
+::cue(.red) {
+    color: red;
+}
+
+::cue(.blue) {
+    color: blue;
+}
+
+::cue(.green) {
+    color: green;
+}
+
+::cue(.yellow) {
+    color: yellow;
+}
+
+::cue(.pink) {
+    color: pink;
+}
+
+::cue(.background-red) {
+    background-color: red;
+}
+
+::cue(.background-blue) {
+    background-color: blue;
+}
+
+::cue(.background-green) {
+    background-color: green;
+}
+
+::cue(.background-yellow) {
+    background-color: yellow;
+}
