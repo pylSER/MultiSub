@@ -3,6 +3,7 @@
  */
 (function () {
     var videos;
+    var maxSubNum=3;//config here
     document.addEventListener("DOMContentLoaded", function () {
         videos = document.querySelectorAll("video[data-multisub]");
         for (var i = 0; i < videos.length; i++) {
@@ -29,7 +30,7 @@
                 false)
             ;
             for (var j = 0; j < video.textTracks.length; j++) {
-                if (j > 1) {
+                if (j > maxSubNum-1) {
                     var tracktoremove = video.querySelectorAll("track")[j];
                     video.removeChild(tracktoremove);
                     continue;
